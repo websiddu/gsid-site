@@ -1,0 +1,44 @@
+{
+  "name": "strapi-plugin-codemirror",
+  "version": "1.0.0-beta.3",
+  "description": "CodeMirror text editor plugin for Strapi headless CMS",
+  "main": "index.js",
+  "strapi": {
+    "name": "CodeMirror editor",
+    "icon": "plug",
+    "description": "CodeMirror text editor plugin."
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tandris/strapi-plugin-codemirror"
+  },
+  "author": "tandris",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {},
+  "dependencies": {
+    "codemirror": "^5.61.0",
+    "lodash": "4.17.21",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "strapi-helper-plugin": "3.6.3"
+  },
+  "maintainers": [
+    {
+      "name": "tandris",
+      "url": "https://github.com/tandris"
+    }
+  ],
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "codemirror"
+  ]
+}

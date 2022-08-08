@@ -1,0 +1,38 @@
+{
+  "name": "markdown-codemirror",
+  "version": "0.0.0",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "Markdown Editor",
+    "description": "Markdown editor with react codemirror6",
+    "kind": "plugin"
+  },
+  "dependencies": {
+    "@codemirror/lang-markdown": "^6.0.1",
+    "@markdoc/markdoc": "^0.1.4",
+    "@strapi/design-system": "^1.2.0",
+    "@strapi/strapi": "^4.3.2",
+    "@uiw/react-codemirror": "4.8.1",
+    "immutable": "^4.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "develop": "tsc -w",
+    "build": "tsc"
+  },
+  "license": "MIT"
+}
